@@ -2,8 +2,13 @@
 // Este es el primer banner que ven los usuarios
 
 import './Hero.css'
+import { scrollToSection } from '../utils/scrollTo'
 
 export function Hero() {
+  const goToCatalog = () => {
+    scrollToSection('catalogo')
+  }
+
   return (
     <section id="inicio" className="hero">
       <div className="hero-container">
@@ -14,8 +19,8 @@ export function Hero() {
             Descubre los mejores celulares con tecnología de punta a precios competitivos. 
             Marcas premium y presupuesto accesible.
           </p>
-          <button className="hero-button">
-            Explorar Catálogo
+          <button type="button" className="hero-button" onClick={goToCatalog}>
+            Explorar catálogo
           </button>
         </div>
 

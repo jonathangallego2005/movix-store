@@ -1,0 +1,92 @@
+/* ESTILOS DE LA SECCIÓN MARCAS */
+
+.brands {
+  background-color: #ffffff;
+  padding: 4rem 2rem;
+}
+
+.brands-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.brands-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.brands-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0 0 1rem;
+}
+
+.brands-header p {
+  font-size: 1.1rem;
+  color: #6b7280;
+  margin: 0;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brands-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1.5rem;
+}
+
+.brand-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1.5rem 1rem;
+  background-color: #f9fafb;
+  border: 2px solid #e5e7eb;
+  border-radius: 12px;
+  text-decoration: none;
+  color: #0f172a;
+  transition: all 0.3s ease;
+}
+
+.brand-card:hover {
+  border-color: #2563eb;
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.15);
+}
+
+.brand-icon {
+  font-size: 2rem;
+}
+
+.brand-name {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .brands {
+    padding: 2rem 1rem;
+  }
+
+  .brands-header h2 {
+    font-size: 1.8rem;
+  }
+
+  .brands-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .brands-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .brand-card {
+    padding: 1rem 0.5rem;
+  }
+}

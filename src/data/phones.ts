@@ -96,7 +96,7 @@ export const phones: Phone[] = [
     name: "Motorola Edge 50 Ultra",
     brand: "Motorola",
     price: 899000,
-    image: "https://http2.mlstatic.com/D_NQ_NP_748621-MLA76569863127_052024-O.webp",
+    image: "https://exitocol.vtexassets.com/arquivos/ids/32517753/Celular-MOTOROLA-Edge-50-Fusion-256GB-256-GB-8-GB-RAM-Azul-3557513_e.jpg?v=639065286099170000",
     description: "Edge + pantalla OLED curvada de 144Hz"
   },
   {

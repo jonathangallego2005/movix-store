@@ -3,6 +3,7 @@
 
 import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
+import { Brands } from './components/Brands'
 import { Catalog } from './components/Catalog'
 import { Footer } from './components/Footer'
 import './App.css'
@@ -17,6 +18,9 @@ function App() {
       <main>
         {/* Hero: Sección principal con banner */}
         <Hero />
+
+        {/* Marcas: logos de las marcas disponibles */}
+        <Brands />
 
         {/* Catalog: Catálogo de productos con filtro */}
         <Catalog />

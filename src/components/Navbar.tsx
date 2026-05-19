@@ -27,11 +27,17 @@ export function Navbar() {
         </div>
 
         {/* BOTÓN HAMBURGUESA (solo aparece en móvil) */}
-        <div className="hamburger" onClick={toggleMenu}>
+        <button
+          type="button"
+          className="hamburger"
+          onClick={toggleMenu}
+          aria-label={menuOpen ? 'Cerrar menú' : 'Abrir menú'}
+          aria-expanded={menuOpen}
+        >
           <span className={menuOpen ? 'active' : ''}></span>
           <span className={menuOpen ? 'active' : ''}></span>
           <span className={menuOpen ? 'active' : ''}></span>
-        </div>
+        </button>
 
         {/* MENÚ DE NAVEGACIÓN */}
         <ul className={`navbar-menu ${menuOpen ? 'active' : ''}`}>

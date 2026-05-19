@@ -1,14 +1,29 @@
 // Componente Catalog (Catálogo de Productos)
 // Muestra todos los celulares en un grid con filtro por marca
 
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { phones } from '../data/phones'
 import { ProductCard } from './ProductCard'
+import { getBrandFromUrl } from '../utils/scrollTo'
 import './Catalog.css'
 
 export function Catalog() {
   // Estado para guardar la marca seleccionada
   const [selectedBrand, setSelectedBrand] = useState<string>('Todas')
+
+  // Si vienes desde "Marcas" con #catalogo?marca=Samsung, aplicamos el filtro
+  useEffect(() => {
+    const applyBrandFromUrl = () => {
+      const marca = getBrandFromUrl()
+      if (marca && phones.some((p) => p.brand === marca)) {
+        setSelectedBrand(marca)
+      }
+    }
+
+    applyBrandFromUrl()
+    window.addEventListener('hashchange', applyBrandFromUrl)
+    return () => window.removeEventListener('hashchange', applyBrandFromUrl)
+  }, [])
 
   // Array de todas las marcas (sin repetidas)
   const brands = ['Todas', ...new Set(phones.map(phone => phone.brand))]

@@ -23,7 +23,7 @@ export function ProductCard({ phone }: ProductCardProps) {
     <div className="product-card">
       {/* IMAGEN DEL CELULAR */}
       <div className="product-image">
-        <img src={phone.image} alt={phone.name} />
+        <img src={phone.image} alt={phone.name} loading="lazy" />
         {/* BADGE DE MARCA */}
         <span className="product-badge">{phone.brand}</span>
       </div>
@@ -39,7 +39,9 @@ export function ProductCard({ phone }: ProductCardProps) {
         </div>
 
         {/* BOTÓN */}
-        <button className="product-button">Ver más detalles</button>
+        <button type="button" className="product-button">
+          Ver más
+        </button>
       </div>
     </div>
   )

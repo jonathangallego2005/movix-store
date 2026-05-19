@@ -1,8 +1,7 @@
 /* ESTILOS GLOBALES */
 /* Estilos que se aplican a toda la página */
 
-/* Importar la fuente Poppins */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* La fuente Poppins se carga en index.html */
 
 /* Reset de estilos (borrar estilos por defecto del navegador) */
 * {
