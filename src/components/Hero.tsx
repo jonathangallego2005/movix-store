@@ -27,8 +27,10 @@ export function Hero() {
         {/* IMAGEN DE SMARTPHONE */}
         <div className="hero-image">
           <img 
-            src="https://images.unsplash.com/photo-1511707267537-b85faf00021e?w=500&h=600&fit=crop" 
+            src="https://i.blogs.es/393e8f/javier-corso/500_333.jpeg"
             alt="Smartphone profesional"
+            width="500"
+            height="333"
           />
         </div>
       </div>
