@@ -23,7 +23,8 @@ export function Navbar() {
       <div className="navbar-container">
         {/* LOGO */}
         <div className="navbar-logo">
-          <h1>MOVIX</h1>
+          <img src="/logo-mivix.png" alt="Logo de MOVIX STORE" />
+          <h1>MOVIX STORE</h1>
         </div>
 
         {/* BOTÓN HAMBURGUESA (solo aparece en móvil) */}

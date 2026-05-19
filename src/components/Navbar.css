@@ -19,12 +19,31 @@
 }
 
 /* LOGO */
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar-logo img {
+  display: block;
+  width: 78px;
+  height: auto;
+  object-fit: contain;
+  padding: 0.3rem;
+  background-color: #ffffff;
+  border: 3px solid #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.35);
+}
+
 .navbar-logo h1 {
   color: #2563eb; /* Azul brillante */
   font-size: 1.8rem;
   font-weight: 700;
   margin: 0;
   letter-spacing: 2px;
+  white-space: nowrap;
 }
 
 /* MENÚ */
@@ -126,8 +145,15 @@
     padding: 0 1rem;
   }
 
+  .navbar-logo img {
+    width: 58px;
+    padding: 0.22rem;
+    border-radius: 8px;
+  }
+
   .navbar-logo h1 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
   }
 
   .navbar-menu {
