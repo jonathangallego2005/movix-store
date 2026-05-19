@@ -1,0 +1,133 @@
+/* ESTILOS DEL NAVBAR (Barra de Navegación) */
+
+.navbar {
+  background-color: #0f172a; /* Azul oscuro */
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* LOGO */
+.navbar-logo h1 {
+  color: #2563eb; /* Azul brillante */
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+/* MENÚ */
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li a {
+  color: #ffffff; /* Blanco */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  padding: 0.5rem 0;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar-menu li a:hover {
+  color: #2563eb; /* Cambiar a azul al pasar el mouse */
+  border-bottom-color: #2563eb;
+}
+
+/* BOTÓN HAMBURGUESA (solo aparece en móvil) */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 0.4rem;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+/* RESPONSIVO PARA TABLETAS Y MÓVILES */
+@media (max-width: 768px) {
+  /* Mostrar el botón hamburguesa */
+  .hamburger {
+    display: flex;
+  }
+
+  /* Ocultar el menú por defecto en móvil */
+  .navbar-menu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #0f172a;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    padding: 2rem 0;
+    gap: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+  }
+
+  /* Mostrar el menú cuando está activo */
+  .navbar-menu.active {
+    max-height: 300px;
+  }
+
+  .navbar-menu li {
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(37, 99, 235, 0.2);
+  }
+
+  .navbar-menu li a {
+    display: block;
+  }
+
+  /* Animación del hamburguesa cuando está activo */
+  .hamburger span.active:nth-child(1) {
+    transform: rotate(45deg) translate(8px, 8px);
+  }
+
+  .hamburger span.active:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger span.active:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -7px);
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-container {
+    padding: 0 1rem;
+  }
+
+  .navbar-logo h1 {
+    font-size: 1.4rem;
+  }
+
+  .navbar-menu {
+    top: 55px;
+  }
+}

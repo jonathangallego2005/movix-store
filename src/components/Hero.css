@@ -1,0 +1,146 @@
+/* ESTILOS DE LA SECCIÓN HERO (Banner Principal) */
+
+.hero {
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); /* Gradiente de azules oscuros */
+  padding: 4rem 2rem;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container {
+  max-width: 1200px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas: texto e imagen */
+  gap: 3rem;
+  align-items: center;
+}
+
+/* CONTENIDO DE TEXTO */
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.2;
+  margin: 0;
+  animation: slideInLeft 0.8s ease-out; /* Animación */
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #e5e7eb; /* Gris claro */
+  line-height: 1.6;
+  margin: 0;
+  animation: slideInLeft 0.8s ease-out 0.2s both; /* Aparece después del título */
+}
+
+/* BOTÓN */
+.hero-button {
+  background-color: #2563eb; /* Azul brillante */
+  color: #ffffff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: fit-content;
+  animation: slideInLeft 0.8s ease-out 0.4s both;
+}
+
+.hero-button:hover {
+  background-color: #1d4ed8; /* Azul más oscuro */
+  transform: translateY(-3px); /* Sube un poco */
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.3);
+}
+
+.hero-button:active {
+  transform: translateY(-1px);
+}
+
+/* IMAGEN */
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: slideInRight 0.8s ease-out;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* ANIMACIONES */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* RESPONSIVO PARA TABLETAS Y MÓVILES */
+@media (max-width: 768px) {
+  .hero {
+    padding: 2rem 1rem;
+    min-height: auto;
+  }
+
+  .hero-container {
+    grid-template-columns: 1fr; /* Una columna en móvil */
+    gap: 2rem;
+  }
+
+  .hero-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 1.5rem 1rem;
+  }
+
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .hero-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.95rem;
+  }
+}

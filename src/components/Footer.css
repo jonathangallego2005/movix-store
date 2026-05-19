@@ -1,0 +1,124 @@
+/* ESTILOS DEL FOOTER (PIE DE PÁGINA) */
+
+.footer {
+  background-color: #0f172a; /* Azul oscuro */
+  color: #e5e7eb; /* Gris claro */
+  padding: 3rem 2rem 1rem;
+  margin-top: 4rem;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* SECCIÓN */
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-section h3 {
+  color: #2563eb; /* Azul brillante */
+  font-size: 1.1rem;
+  margin: 0;
+  font-weight: 700;
+}
+
+.footer-section p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.footer-section strong {
+  color: #ffffff;
+}
+
+/* LISTA DE ENLACES */
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.footer-section ul li a {
+  color: #e5e7eb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #2563eb;
+}
+
+/* REDES SOCIALES */
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.social-link {
+  display: inline-block;
+  color: #e5e7eb;
+  text-decoration: none;
+  padding: 0.6rem 1rem;
+  border: 2px solid #2563eb;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.social-link:hover {
+  background-color: #2563eb;
+  color: #ffffff;
+  transform: translateY(-3px);
+}
+
+/* PIE */
+.footer-bottom {
+  border-top: 1px solid rgba(37, 99, 235, 0.3);
+  padding-top: 2rem;
+  text-align: center;
+  color: #9ca3af; /* Gris más oscuro */
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* RESPONSIVO */
+@media (max-width: 768px) {
+  .footer {
+    padding: 2rem 1rem 1rem;
+    margin-top: 2rem;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .social-links {
+    flex-direction: column;
+    gap: 0.7rem;
+  }
+
+  .social-link {
+    width: 100%;
+    text-align: center;
+  }
+}
