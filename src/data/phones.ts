@@ -18,7 +18,7 @@ export const phones: Phone[] = [
     name: "iPhone 15 Pro",
     brand: "Apple",
     price: 1299000,
-    image: "https://images.unsplash.com/photo-1592286927505-1def25115558?w=300&h=300&fit=crop",
+    image: "https://co.nixblix.com/cdn/shop/files/27439196537008-iphone_15_pro_max_blue_titanium_pdp_image_position-1__coes.jpg?v=1753466314",
     description: "El smartphone más avanzado de Apple con pantalla Super Retina XDR"
   },
   {
@@ -26,7 +26,7 @@ export const phones: Phone[] = [
     name: "iPhone 15",
     brand: "Apple",
     price: 899000,
-    image: "https://images.unsplash.com/photo-1592286927505-1def25115558?w=300&h=300&fit=crop",
+    image: "https://co.tiendasishop.com/cdn/shop/files/IMG-10935051_b67beb9e-6d64-4a98-b398-c0299496beb9.jpg?v=1723513454&width=823",
     description: "Potencia y elegancia en un diseño compacto"
   },
   {
@@ -34,7 +34,7 @@ export const phones: Phone[] = [
     name: "iPhone 14",
     brand: "Apple",
     price: 699000,
-    image: "https://images.unsplash.com/photo-1592286927505-1def25115558?w=300&h=300&fit=crop",
+    image: "https://itechcolombia.co/wp-content/uploads/2022/10/iphone-14-starlight-1__55760.png",
     description: "Performance excepcional con chip A15 Bionic"
   },
 
@@ -44,7 +44,7 @@ export const phones: Phone[] = [
     name: "Galaxy S24 Ultra",
     brand: "Samsung",
     price: 1199000,
-    image: "https://images.unsplash.com/photo-1610945415295-d9bbf373f991?w=300&h=300&fit=crop",
+    image: "https://media.falabella.com/falabellaCO/129888020_05/w=1500,h=1500,fit=cover",
     description: "La máxima expresión de tecnología Samsung"
   },
   {
@@ -52,7 +52,7 @@ export const phones: Phone[] = [
     name: "Galaxy S24",
     brand: "Samsung",
     price: 849000,
-    image: "https://images.unsplash.com/photo-1610945415295-d9bbf373f991?w=300&h=300&fit=crop",
+    image: "https://www.smartgadgets.com.co/cdn/shop/files/392.jpg?v=1734210965",
     description: "Pantalla AMOLED de 120Hz con cámara revolucionaria"
   },
   {
@@ -60,7 +60,7 @@ export const phones: Phone[] = [
     name: "Galaxy A54",
     brand: "Samsung",
     price: 449000,
-    image: "https://images.unsplash.com/photo-1610945415295-d9bbf373f991?w=300&h=300&fit=crop",
+    image: "https://www.clevercel.co/cdn/shop/files/Portadas_SamsungA54_513d3597-89f2-4b82-b398-c7c4a3ca0475.webp?v=1757093044&width=1214",
     description: "Excelente relación precio-rendimiento"
   },
 
@@ -70,7 +70,7 @@ export const phones: Phone[] = [
     name: "Xiaomi 14 Ultra",
     brand: "Xiaomi",
     price: 599000,
-    image: "https://images.unsplash.com/photo-1511707267537-b85faf00021e?w=300&h=300&fit=crop",
+    image: "https://http2.mlstatic.com/D_NQ_NP_796789-MLA99489710004_112025-O.webp",
     description: "Fotografía profesional en tu bolsillo"
   },
   {
@@ -78,7 +78,7 @@ export const phones: Phone[] = [
     name: "Xiaomi 14",
     brand: "Xiaomi",
     price: 449000,
-    image: "https://images.unsplash.com/photo-1511707267537-b85faf00021e?w=300&h=300&fit=crop",
+    image: "https://http2.mlstatic.com/D_Q_NP_695708-MLA99523955560_122025-O.webp",
     description: "Procesador Snapdragon 8 Gen 3"
   },
   {
@@ -86,7 +86,7 @@ export const phones: Phone[] = [
     name: "Xiaomi Redmi Note 13",
     brand: "Xiaomi",
     price: 249000,
-    image: "https://images.unsplash.com/photo-1511707267537-b85faf00021e?w=300&h=300&fit=crop",
+    image: "https://http2.mlstatic.com/D_NQ_NP_748621-MLA76569863127_052024-O.webp",
     description: "Batería de 5000mAh con carga rápida"
   },
 
@@ -96,7 +96,7 @@ export const phones: Phone[] = [
     name: "Motorola Edge 50 Ultra",
     brand: "Motorola",
     price: 899000,
-    image: "https://images.unsplash.com/photo-1598291209844-6b0b8b04ce9a?w=300&h=300&fit=crop",
+    image: "https://http2.mlstatic.com/D_NQ_NP_748621-MLA76569863127_052024-O.webp",
     description: "Edge + pantalla OLED curvada de 144Hz"
   },
   {
@@ -104,7 +104,7 @@ export const phones: Phone[] = [
     name: "Motorola Edge 50",
     brand: "Motorola",
     price: 599000,
-    image: "https://images.unsplash.com/photo-1598291209844-6b0b8b04ce9a?w=300&h=300&fit=crop",
+    image: "https://exitocol.vtexassets.com/arquivos/ids/32517753/Celular-MOTOROLA-Edge-50-Fusion-256GB-256-GB-8-GB-RAM-Azul-3557513_e.jpg?v=639065286099170000",
     description: "Diseño premium con cámara Hasselblad"
   },
   {
@@ -112,7 +112,7 @@ export const phones: Phone[] = [
     name: "Motorola G54",
     brand: "Motorola",
     price: 349000,
-    image: "https://images.unsplash.com/photo-1598291209844-6b0b8b04ce9a?w=300&h=300&fit=crop",
+    image: "https://exitocol.vteximg.com.br/arquivos/ids/32515370/Moto-G54-256GB-Verde-MOTOROLA-G54-256-gb-256-GB-8-GB-RAM-Verde-3500233_f.jpg?v=639065272536230000",
     description: "Pantalla AMOLED y batería de larga duración"
   },
 
@@ -122,7 +122,7 @@ export const phones: Phone[] = [
     name: "Google Pixel 8 Pro",
     brand: "Google",
     price: 999000,
-    image: "https://images.unsplash.com/photo-1574585616712-d67d3c3f8d93?w=300&h=300&fit=crop",
+    image: "https://http2.mlstatic.com/D_NQ_NP_844251-MLA100008246217_122025-O.webp",
     description: "IA y fotografía en el nivel máximo"
   },
   {
@@ -130,7 +130,7 @@ export const phones: Phone[] = [
     name: "Google Pixel 8",
     brand: "Google",
     price: 749000,
-    image: "https://images.unsplash.com/photo-1574585616712-d67d3c3f8d93?w=300&h=300&fit=crop",
+    image: "https://http2.mlstatic.com/D_NQ_NP_898497-MLA96414764110_102025-O.webp",
     description: "La cámara computacional de Google"
   },
   {
@@ -138,7 +138,7 @@ export const phones: Phone[] = [
     name: "Google Pixel 7a",
     brand: "Google",
     price: 449000,
-    image: "https://images.unsplash.com/photo-1574585616712-d67d3c3f8d93?w=300&h=300&fit=crop",
+    image: "https://http2.mlstatic.com/D_NQ_NP_640892-MLA99985861347_112025-O.webp",
     description: "Calidad Pixel a precio accesible"
   },
 
@@ -148,7 +148,7 @@ export const phones: Phone[] = [
     name: "Huawei P60 Pro",
     brand: "Huawei",
     price: 799000,
-    image: "https://images.unsplash.com/photo-1511295054353-5c3b10a89f81?w=300&h=300&fit=crop",
+    image: "https://hsi.com.co/wp-content/uploads/2023/12/Imagen-Huawei-P60-Pro-Negro.jpg",
     description: "Cámara LEICA y tecnología HarmonyOS"
   },
   {
@@ -156,7 +156,7 @@ export const phones: Phone[] = [
     name: "Huawei P60",
     brand: "Huawei",
     price: 599000,
-    image: "https://images.unsplash.com/photo-1511295054353-5c3b10a89f81?w=300&h=300&fit=crop",
+    image: "https://cdn.smart-gsm.com/img/picture/huawei-p60.jpg",
     description: "Fotografía profesional en el bolsillo"
   },
   {
@@ -164,7 +164,7 @@ export const phones: Phone[] = [
     name: "Huawei nova 12",
     brand: "Huawei",
     price: 399000,
-    image: "https://images.unsplash.com/photo-1511295054353-5c3b10a89f81?w=300&h=300&fit=crop",
+    image: "https://img01.huaweifile.com/sg/ms/co/pms/uomcdn/CO_HW_B2C/pms/202403/gbom/6942103117626/800_800_59223899463EE99C766D4785762B51B4mp.png",
     description: "Diseño elegante y rendimiento confiable"
   }
 ]
